@@ -1,2 +1,3 @@
-# selenium-javascript
-Writing Selenium tests using JavaScript
+# Selenium JavaScript
+
+Using JavaScript for Selenium to Automate Web App.

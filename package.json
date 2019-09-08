@@ -1,0 +1,32 @@
+{
+  "name": "selenium-javascript",
+  "version": "1.0.0",
+  "description": "Selenium Tests Using JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "uitest": "jest -c config/jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/pritampatil4/selenium-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/pritampatil4/selenium-javascript/issues"
+  },
+  "homepage": "https://gitlab.com/pritampatil4/selenium-javascript#readme",
+  "dependencies": {
+    "eslint-plugin-jest": "^22.16.0",
+    "jest-environment-node": "^24.9.0",
+    "selenium-webdriver": "^4.0.0-alpha.4"
+  },
+  "env": {
+    "jest/globals": true
+  },
+  "devDependencies": {
+    "chromedriver": "^76.0.1",
+    "jest": "^24.9.0"
+  }
+}

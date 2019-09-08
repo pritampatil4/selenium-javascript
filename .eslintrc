@@ -1,0 +1,8 @@
+{
+    "env": {
+    "jest":true,
+    "describe":true,
+    "browser":true,
+    "node":true   
+}
+}
