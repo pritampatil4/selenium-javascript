@@ -1,5 +1,7 @@
 const landingPageTests = require("../tests/landingPageTests");
+const searchPageTests = require("../tests/searchPageTests");
 const LoadDriver = require("../services/loadDriver");
+
 
 describe("Test Suite", () => {
   beforeAll(async () => {
@@ -12,4 +14,5 @@ describe("Test Suite", () => {
   });
 
   describe("Landing Page test", landingPageTests);
+  describe("Search Page test", searchPageTests);
 });

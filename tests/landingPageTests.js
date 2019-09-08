@@ -1,12 +1,15 @@
-const { Builder } = require('selenium-webdriver');
+const { Builder,By } = require('selenium-webdriver');
+const {getElement} = require('../services/locatingStrategy');
+const BASE_URL = "http://www.zalando.de";
+
 
 const landingPageTests = () => {
-    it('First test', async () => {
-        console.log('Hello World');
+    beforeAll(async () => {
+        await DRIVER.get(BASE_URL);
     });
 
-    it('Second test', async () => {
-        await DRIVER.get('http://www.google.com');
+    it('Checks logo on page', async () => {
+        await getElement('.z-navicat-header_svgLogo').isDisplayed();      
     });
 };
 module.exports = landingPageTests;
