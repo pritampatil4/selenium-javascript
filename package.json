@@ -20,7 +20,7 @@
   "dependencies": {
     "eslint-plugin-jest": "^22.16.0",
     "jest-environment-node": "^24.9.0",
-    "selenium-webdriver": "^4.0.0-alpha.4"
+    "selenium-webdriver": "^4.17.0"
   },
   "env": {
     "jest/globals": true
