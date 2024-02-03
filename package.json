@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "chromedriver": "^76.0.1",
-    "jest": "^24.9.0"
+    "jest": "^29.7.0"
   }
 }
