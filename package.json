@@ -19,7 +19,7 @@
   "homepage": "https://gitlab.com/pritampatil4/selenium-javascript#readme",
   "dependencies": {
     "eslint-plugin-jest": "^22.16.0",
-    "jest-environment-node": "^24.9.0",
+    "jest-environment-node": "^29.7.0",
     "selenium-webdriver": "^4.17.0"
   },
   "env": {
